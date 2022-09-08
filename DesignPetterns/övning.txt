@@ -1,0 +1,18 @@
+﻿1.Kalle skall skriva ett del av ett spel program där han skall sätta upp olika fiender för att återanvända dem om och om igen.
+Han tänker använda Abstract Factory Method för att sätta upp childs av en “pawn” i olika kategorier av fiender och nivå i spelet. 
+Vi har två nivåer (Concrete Factories) som används av var sin instans av en Client
+Fiende typerna är Demons, Undead och Kittens (Abstract Products).
+De specifika fienderna är som skall skapas är (Produkts):
+●	Demons
+
+○	SmallDemon
+○	LargeDemon
+
+●	Undead
+○	Skeleton
+○	Zombie
+
+●	Kitten
+○	CuddlyKitten
+○	AngryKitten
+○	DeadOrAliveKitten
